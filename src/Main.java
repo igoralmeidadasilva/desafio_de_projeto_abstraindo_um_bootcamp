@@ -20,7 +20,7 @@ public class Main {
         mentoria.setTitulo("mentoria de java");
         mentoria.setDescricao("descrição mentoria java");
         mentoria.setData(LocalDate.now());
-        
+
 
         Conteudo conteudo = new Curso();
         Conteudo conteudo1 = new Mentoria();
@@ -28,5 +28,7 @@ public class Main {
         System.out.println(curso1);
         System.out.println(curso2);
         System.out.println(mentoria);
+        System.out.println(conteudo);
+        System.out.println(conteudo1);
     }
 }
